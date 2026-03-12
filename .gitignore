@@ -1,0 +1,31 @@
+# Node
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# IDE
+.vs/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# App settings with secrets
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Secret files
+secrets/
