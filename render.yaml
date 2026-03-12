@@ -3,7 +3,7 @@ services:
     name: inventorymanager-api
     runtime: docker
     rootDir: backend
-    dockerfilePath: InventoryManager.WebApi/Dockerfile
+    dockerfilePath: ./Dockerfile
     autoDeploy: true
     plan: free
     envVars:
